@@ -1,0 +1,30 @@
+{
+  "author": "Alex Bosworth",
+  "bugs": {
+    "url": "https://github.com/alexbosworth/bolt09/issues"
+  },
+  "description": "BOLT 09 helper methods",
+  "devDependencies": {
+    "tap": "14.10.4"
+  },
+  "engines": {
+    "node": ">=10.4.0"
+  },
+  "keywords": [
+    "bolt",
+    "feature-bits",
+    "lightning",
+    "lightning-network"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "bolt09",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexbosworth/bolt09.git"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "version": "0.0.1"
+}
