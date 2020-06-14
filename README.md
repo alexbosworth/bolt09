@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/alexbosworth/bolt09/badge.svg?branch=master)](https://coveralls.io/github/alexbosworth/bolt09?branch=master)
 [![Build Status](https://travis-ci.org/alexbosworth/bolt09.svg?branch=master)](https://travis-ci.org/alexbosworth/bolt09)
 
-Utility methods for working with BOLT 09
+Utility methods for working with [BOLT 09](https://github.com/lightningnetwork/lightning-rfc/blob/master/09-features.md)
 
 ## Methods
 

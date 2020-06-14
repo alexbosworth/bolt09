@@ -21,5 +21,7 @@
   "14": {"name": "payment_secret", "type": "payment_identifier"},
   "15": {"name": "payment_secret", "type": "payment_identifier"},
   "16": {"name": "basic_mpp", "type": "multipath_payments_v0"},
-  "17": {"name": "basic_mpp", "type": "multipath_payments_v0"}
+  "17": {"name": "basic_mpp", "type": "multipath_payments_v0"},
+  "18": {"name": "option_support_large_channel", "type": "large_channels"},
+  "19": {"name": "option_support_large_channel", "type": "large_channels"}
 }
