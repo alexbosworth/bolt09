@@ -5,7 +5,7 @@
   },
   "description": "BOLT 09 helper methods",
   "devDependencies": {
-    "tap": "14.10.8"
+    "tap": "14.11.0"
   },
   "engines": {
     "node": ">=10.4.0"
@@ -26,5 +26,5 @@
   "scripts": {
     "test": "tap test/*.js"
   },
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
