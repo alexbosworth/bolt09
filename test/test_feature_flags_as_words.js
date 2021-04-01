@@ -21,13 +21,13 @@ const tests = [
 ];
 
 tests.forEach(({args, description, error, expected}) => {
-  return test(description, ({deepIs, end, throws}) => {
+  return test(description, ({end, strictSame, throws}) => {
     if (!!error) {
       throws(() => featureFlagsAsWords(args), new Error(error), 'Got error');
     } else {
       const res = featureFlagsAsWords(args);
 
-      deepIs(res.words, expected.words, 'Got expected words encoding');
+      strictSame(res.words, expected.words, 'Got expected words encoding');
     }
 
     return end();

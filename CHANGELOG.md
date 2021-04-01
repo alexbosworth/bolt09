@@ -1,6 +1,6 @@
 # Versions
 
-## 0.1.3
+## 0.1.4
 
 - `featureFlagDetails`: Add support for anchor channels and anchor zero fee transactions
 

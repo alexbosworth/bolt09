@@ -16,13 +16,13 @@ const tests = [
 ];
 
 tests.forEach(({args, description, error, expected}) => {
-  return test(description, ({deepIs, end, throws}) => {
+  return test(description, ({end, strictSame, throws}) => {
     if (!!error) {
       throws(() => featureFlagsFromWords(args), new Error(error), 'Got error');
     } else {
       const res = featureFlagsFromWords(args);
 
-      deepIs(res.features, expected.features, 'Got expected feature bits');
+      strictSame(res.features, expected.features, 'Got expected feature bits');
     }
 
     return end();
