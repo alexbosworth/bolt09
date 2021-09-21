@@ -33,5 +33,13 @@
   "23": {
     "name": "option_anchors_zero_fee_htlc_tx",
     "type": "anchor_zero_fee_htlc_tx"
+  },
+  "26": {
+    "name": "option_shutdown_anysegwit",
+    "type": "upfront_close_all_segwit_versions"
+  },
+  "27": {
+    "name": "option_shutdown_anysegwit",
+    "type": "upfront_close_all_segwit_versions"
   }
 }
