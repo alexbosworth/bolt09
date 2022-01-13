@@ -1,6 +1,6 @@
 # Versions
 
-## 0.2.0
+## 0.2.1
 
 - `featureFlagDetails`: Add support for `option_shutdown_anysegwit` flag
 
