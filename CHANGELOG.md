@@ -1,5 +1,9 @@
 # Versions
 
+## 0.2.2
+
+- `featureFlagDetails`: Add `option_channel_type`, `option_payment_metadata`
+
 ## 0.2.1
 
 - `featureFlagDetails`: Add support for `option_shutdown_anysegwit` flag
