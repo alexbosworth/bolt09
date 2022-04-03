@@ -1,6 +1,6 @@
 # Versions
 
-## 0.2.2
+## 0.2.3
 
 - `featureFlagDetails`: Add `option_channel_type`, `option_payment_metadata`
 
