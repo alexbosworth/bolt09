@@ -45,5 +45,7 @@
   "44": {"name": "option_channel_type", "type": "channel_type"},
   "45": {"name": "option_channel_type", "type": "channel_type"},
   "48": {"name": "option_payment_metadata", "type": "pay_includes_metadata"},
-  "49": {"name": "option_payment_metadata", "type": "pay_includes_metadata"}
+  "49": {"name": "option_payment_metadata", "type": "pay_includes_metadata"},
+  "50": {"name": "option_zeroconf", "type": "trusted_funding_channels"},
+  "51": {"name": "option_zeroconf", "type": "trusted_funding_channels"}
 }

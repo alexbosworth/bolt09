@@ -1,5 +1,9 @@
 # Versions
 
+## 0.2.4
+
+- `featureFlagDetails`: Add `option_zeroconf`
+
 ## 0.2.3
 
 - `featureFlagDetails`: Add `option_channel_type`, `option_payment_metadata`
