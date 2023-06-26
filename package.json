@@ -1,14 +1,14 @@
 {
-  "author": "Alex Bosworth",
+  "author": {
+    "name": "Alex Bosworth",
+    "url": "https://twitter.com/alexbosworth"
+  },
   "bugs": {
     "url": "https://github.com/alexbosworth/bolt09/issues"
   },
   "description": "BOLT 09 helper methods",
-  "devDependencies": {
-    "@alexbosworth/tap": "15.0.12"
-  },
   "engines": {
-    "node": ">=12.20.0"
+    "node": ">=16"
   },
   "keywords": [
     "bolt",
@@ -24,7 +24,7 @@
     "url": "https://github.com/alexbosworth/bolt09.git"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "npx nyc@15.1 node --experimental-test-coverage --test"
   },
-  "version": "0.2.5"
+  "version": "1.0.0"
 }

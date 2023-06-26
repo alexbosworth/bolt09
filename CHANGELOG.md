@@ -1,5 +1,9 @@
 # Versions
 
+## 1.0.0
+
+- Only versions of Node.js 16 or higher are supported
+
 ## 0.2.5
 
 - `featureFlagDetails`: Add `option_zeroconf`

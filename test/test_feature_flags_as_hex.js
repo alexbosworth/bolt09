@@ -1,4 +1,6 @@
-const {test} = require('@alexbosworth/tap');
+const {deepStrictEqual} = require('node:assert').strict;
+const test = require('node:test');
+const {throws} = require('node:assert').strict;
 
 const {featureFlagsAsHex} = require('./../');
 
@@ -21,13 +23,13 @@ const tests = [
 ];
 
 tests.forEach(({args, description, error, expected}) => {
-  return test(description, async ({deepEqual, end, equal, throws}) => {
+  return test(description, (t, end) => {
     if (!!error) {
       throws(() => featureFlagsAsHex(args), new Error(error), 'Got error');
     } else {
       const res = featureFlagsAsHex(args);
 
-      equal(res.encoded, expected.encoded, 'Got expected serialization');
+      deepStrictEqual(res.encoded, expected.encoded, 'Got serialization');
     }
 
     return end();

@@ -1,4 +1,6 @@
-const {test} = require('@alexbosworth/tap');
+const {deepStrictEqual} = require('node:assert').strict;
+const test = require('node:test');
+const {throws} = require('node:assert').strict;
 
 const {featureFlagsFromWords} = require('./../');
 
@@ -16,13 +18,13 @@ const tests = [
 ];
 
 tests.forEach(({args, description, error, expected}) => {
-  return test(description, ({end, strictSame, throws}) => {
+  return test(description, (t, end) => {
     if (!!error) {
       throws(() => featureFlagsFromWords(args), new Error(error), 'Got error');
     } else {
       const res = featureFlagsFromWords(args);
 
-      strictSame(res.features, expected.features, 'Got expected feature bits');
+      deepStrictEqual(res.features, expected.features, 'Got feature bits');
     }
 
     return end();
