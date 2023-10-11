@@ -1,5 +1,13 @@
 # Versions
 
+## 2.0.0
+
+- `featureFlagDetails`: Add `option_scid_alias`
+
+### Breaking Changes
+
+- Only versions of Node.js 18 or higher are supported
+
 ## 1.0.0
 
 - Only versions of Node.js 16 or higher are supported

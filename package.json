@@ -8,7 +8,7 @@
   },
   "description": "BOLT 09 helper methods",
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "keywords": [
     "bolt",
@@ -26,5 +26,5 @@
   "scripts": {
     "test": "npx nyc@15.1 node --experimental-test-coverage --test"
   },
-  "version": "1.0.0"
+  "version": "2.0.0"
 }

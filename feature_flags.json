@@ -44,6 +44,8 @@
   },
   "44": {"name": "option_channel_type", "type": "channel_type"},
   "45": {"name": "option_channel_type", "type": "channel_type"},
+  "46": {"name": "option_scid_alias", "type": "scid_alias"},
+  "47": {"name": "option_scid_alias", "type": "scid_alias"},
   "48": {"name": "option_payment_metadata", "type": "pay_includes_metadata"},
   "49": {"name": "option_payment_metadata", "type": "pay_includes_metadata"},
   "50": {"name": "option_zeroconf", "type": "trusted_funding_channels"},
