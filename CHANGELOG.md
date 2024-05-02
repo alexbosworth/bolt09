@@ -1,5 +1,10 @@
 # Versions
 
+## 2.1.0
+
+- `featureFlagDetails`: Add `option_dual_fund`, `option_onion_messages`,
+    `option_route_blinding`
+
 ## 2.0.0
 
 - `featureFlagDetails`: Add `option_scid_alias`

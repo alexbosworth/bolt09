@@ -34,6 +34,8 @@
     "name": "option_anchors_zero_fee_htlc_tx",
     "type": "anchor_zero_fee_htlc_tx"
   },
+  "24": {"name": "option_route_blinding", "type": "route_blinding"},
+  "25": {"name": "option_route_blinding", "type": "route_blinding"},
   "26": {
     "name": "option_shutdown_anysegwit",
     "type": "upfront_close_all_segwit_versions"
@@ -42,6 +44,10 @@
     "name": "option_shutdown_anysegwit",
     "type": "upfront_close_all_segwit_versions"
   },
+  "28": {"name": "option_dual_fund", "type": "dual_funding"},
+  "29": {"name": "option_dual_fund", "type": "dual_funding"},
+  "38": {"name": "option_onion_messages", "type": "onion_messaging"},
+  "39": {"name": "option_onion_messages", "type": "onion_messaging"},
   "44": {"name": "option_channel_type", "type": "channel_type"},
   "45": {"name": "option_channel_type", "type": "channel_type"},
   "46": {"name": "option_scid_alias", "type": "scid_alias"},
