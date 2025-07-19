@@ -24,7 +24,7 @@
     "url": "https://github.com/alexbosworth/bolt09.git"
   },
   "scripts": {
-    "test": "npx nyc@15.1 node --experimental-test-coverage --test"
+    "test": "npx nyc@17.1 node --experimental-test-coverage --test"
   },
-  "version": "2.1.0"
+  "version": "2.2.0"
 }

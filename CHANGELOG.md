@@ -1,5 +1,9 @@
 # Versions
 
+## 2.2.0
+
+- `featureFlagDetails`: Add `option_simple_close`
+
 ## 2.1.0
 
 - `featureFlagDetails`: Add `option_dual_fund`, `option_onion_messages`,
