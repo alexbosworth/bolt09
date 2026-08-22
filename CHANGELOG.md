@@ -1,5 +1,14 @@
 # Versions
 
+## 3.0.0
+
+- `featureFlagDetails`: Add `option_attribution_data`, `option_provide_storage`,
+    `option_quiesce`, `option_splice`, `zero_fee_commitments`
+
+### Breaking Changes
+
+- Only versions of Node.js 22 or higher are supported
+
 ## 2.2.0
 
 - `featureFlagDetails`: Add `option_simple_close`

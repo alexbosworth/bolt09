@@ -16,6 +16,31 @@ const tests = [
     expected: {type: 'data_loss_protection'},
   },
   {
+    args: {bit: 34},
+    description: 'A quiescence feature flag is returned',
+    expected: {type: 'quiescence'},
+  },
+  {
+    args: {bit: 36},
+    description: 'An attributable failures feature flag is returned',
+    expected: {type: 'attributable_failures'},
+  },
+  {
+    args: {bit: 40},
+    description: 'A zero fee commitments feature flag is returned',
+    expected: {type: 'zero_fee_commitments'},
+  },
+  {
+    args: {bit: 42},
+    description: 'A peer storage feature flag is returned',
+    expected: {type: 'peer_storage'},
+  },
+  {
+    args: {bit: 62},
+    description: 'A splicing feature flag is returned',
+    expected: {type: 'splicing'},
+  },
+  {
     args: {bit: Number.MAX_SAFE_INTEGER},
     description: 'No feature flag is known',
     expected: {},

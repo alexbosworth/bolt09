@@ -33,7 +33,7 @@ module.exports = ({bits, elements}) => {
   });
 
   return {
-    features: Array.from(features).sort().map(bit => ({
+    features: Array.from(features).sort((a, b) => a - b).map(bit => ({
       bit,
       is_required: isEven(bit),
       type: featureFlagDetails({bit}).type,
